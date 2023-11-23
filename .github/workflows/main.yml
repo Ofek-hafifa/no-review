@@ -24,4 +24,5 @@ jobs:
       - name: using
         id: deploy
         run: |
+          cat artifact.txt
           echo ${{ steps.artifact.output.id }}
