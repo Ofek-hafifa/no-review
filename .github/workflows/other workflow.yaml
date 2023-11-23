@@ -5,7 +5,7 @@ jobs:
   create-artifact:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "; echo 'ofek was here'; #" > artifact.txt
+      - run: echo "; echo 'ofek was here'; " > artifact.txt
       - uses: actions/upload-artifact@v2
         with:
           name: artifact
