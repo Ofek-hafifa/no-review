@@ -25,4 +25,4 @@ jobs:
         id: deploy
         run: |
           cat artifact.txt
-          echo ${{ steps.artifact.output.id }}
+          echo ${{ steps.artifact.outputs.id }}
