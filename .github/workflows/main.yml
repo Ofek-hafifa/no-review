@@ -2,7 +2,7 @@ name: Hackable
 
 on:
   workflow_run:
-    workflows: [Vulnerable workflow]
+    workflows: [other workflow]
     types:
       - completed
 
