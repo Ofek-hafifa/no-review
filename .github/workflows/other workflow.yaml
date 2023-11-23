@@ -1,4 +1,4 @@
-name: Vulnerable workflow
+name: other workflow
 on: pull_request
 
 jobs:
