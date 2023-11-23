@@ -1,2 +1,2 @@
 user = "ofekofek"
-pass = "blabla1234!@#$"
+password = "blabla1234!@#$"
